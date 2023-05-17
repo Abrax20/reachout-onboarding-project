@@ -1,0 +1,14 @@
+{
+  "name": "reachout-onboarding",
+  "version": "1.0.0",
+  "description": "This repo is for learning.",
+  "scripts": {
+    "postinstall": "cd frontend/ && npm install && cd ../backend && npm install",
+    "dev": "concurrently --kill-others \"cd frontend/ && npm run start\" \"cd backend/ && npm run start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
